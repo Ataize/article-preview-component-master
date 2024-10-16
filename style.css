@@ -47,7 +47,7 @@ main{
 }
 .card__rodape-user{
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: space-between;
     align-items: center;
 }
@@ -62,6 +62,10 @@ main{
     border-radius: 100%;
     display: flex;
     justify-content: center;
+    padding: .2rem;
+    margin-right: 8%;
+}
+.card__rodape-share img{
     padding: .2rem;
 }
 .card__share{
@@ -80,5 +84,54 @@ main{
 
 .hidden{
     display: none;
+}
+
+@media screen and (min-width: 600px){
+    body{
+        height: 100vh;
+        align-content: center;
+    }
+    article{
+        display: flex;
+        position: relative;
+        max-width: 700px;
+    }
+    .card__picture{
+        width: 100%;
+    }
+    .card__image{
+        height: 100%;
+        border-radius: .6rem 0 0 .6rem;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .card__rodape-user{
+        justify-content: flex-start;
+    }
+    .card__rodape-perfil{
+        margin-right: 2rem;
+    }
+   
+    .share-desk{
+        right: -9%;
+        position: absolute;
+        width: 30%;
+        border-radius: .6rem;
+        top: 40%;
+    }
+    .seta{
+        position: absolute;
+        padding: 10px;
+        box-shadow: 2px -2px 0 1px tranparent inset;
+        border: solid transparent;
+        border-width: 0 0 2px 2px;
+        transform: rotate(-45deg);
+        bottom: -7px;
+        background-color: var(--desaturated-darkd-blue);
+        right: 50%;
+    }
 }
 
