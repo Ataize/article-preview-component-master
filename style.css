@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+:root{
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-darkd-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--grayish-blue);
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--very-dark-grayish-blue);
+
+}
+article{
+    margin: 2rem auto;
+    width: 80%;
+    background-color: var(--light-grayish-blue);
+    border-radius: .6rem;
+}
+main{
+    padding: 1.5rem;
+}
+.card__image{
+    width: 100%;
+    border-radius: .6rem .6rem 0 0;
+}
+.card__container-title{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.card__rodape{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: .7rem;
+    /* Aplicar quando tiver hidden */
+    /* background-color: var(--very-dark-grayish-blue); */
+}
+.card__rodape-user{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__rodape-perfil{
+    width: 50px;
+    border-radius: 100%;
+}
+.card__rodape-share{
+    align-self: center;
+    background-color: var(--grayish-blue);
+    height: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    padding: .2rem;
+}
+.card__share{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--desaturated-darkd-blue);
+    height: 60px;
+    align-items: center;
+    border-radius: 0 0 .6rem .6rem;
+}
+.card__share p{
+    color: var(--grayish-blue);
+    letter-spacing: .6rem;
+}
+
+.hidden{
+    display: none;
+}
+
