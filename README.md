@@ -35,8 +35,7 @@ Users should be able to:
 
 ### Screenshot
 
-![(./design./desktop-preview.jpg)]
-
+![](./design./desktop-preview.jpg)
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
