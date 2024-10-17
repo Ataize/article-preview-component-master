@@ -4,6 +4,7 @@
     --desaturated-darkd-blue: hsl(214, 17%, 51%);
     --grayish-blue: hsl(212, 23%, 69%);
     --light-grayish-blue: hsl(210, 46%, 95%);
+    --white:#FFF;
 }
 *{
     margin: 0;
@@ -11,7 +12,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--grayish-blue);
+    background-color: var(--light-grayish-blue);
     width: 100%;
     font-family: "Manrope", sans-serif;
     font-weight: 500;
@@ -22,7 +23,7 @@ body{
 article{
     margin: 2rem auto;
     width: 80%;
-    background-color: var(--light-grayish-blue);
+    background-color: var(--white);
     border-radius: .6rem;
 }
 main{
@@ -42,8 +43,7 @@ main{
     width: 100%;
     justify-content: space-between;
     margin-top: .7rem;
-    /* Aplicar quando tiver hidden */
-    /* background-color: var(--very-dark-grayish-blue); */
+   
 }
 .card__rodape-user{
     display: flex;
@@ -57,13 +57,18 @@ main{
 }
 .card__rodape-share{
     align-self: center;
-    background-color: var(--grayish-blue);
-    height: 20px;
+    background-color: var(--light-grayish-blue);
+    width: 25px;
+    height: 25px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     padding: .2rem;
     margin-right: 8%;
+}
+.card__rodape-share:hover{
+    background-color: var(--grayish-blue);
+    cursor: pointer;
 }
 .card__rodape-share img{
     padding: .2rem;
@@ -77,16 +82,25 @@ main{
     align-items: center;
     border-radius: 0 0 .6rem .6rem;
 }
-.card__share p{
+.card__share a{
     color: var(--grayish-blue);
     letter-spacing: .6rem;
+    text-decoration: none;
+}
+.mobile{
+    background-color: var(--white);
 }
 
 .hidden{
     display: none;
 }
+.card__share a:hover{
+    padding: .4rem;
+    border-radius: .5rem;
+    background-color: var(--very-dark-grayish-blue);
+}
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 768px){
     body{
         height: 100vh;
         align-content: center;
@@ -95,6 +109,7 @@ main{
         display: flex;
         position: relative;
         max-width: 700px;
+        border-radius: 0 .6rem .6rem 0;
     }
     .card__picture{
         width: 100%;
@@ -114,7 +129,14 @@ main{
     .card__rodape-perfil{
         margin-right: 2rem;
     }
-   
+    .card__rodape-share{
+        width: 50px;
+        height: 50px;
+        padding: .6rem;
+    }
+    .mobile{
+        display: none;
+    }
     .share-desk{
         right: -9%;
         position: absolute;
@@ -125,13 +147,12 @@ main{
     .seta{
         position: absolute;
         padding: 10px;
-        box-shadow: 2px -2px 0 1px tranparent inset;
         border: solid transparent;
-        border-width: 0 0 2px 2px;
         transform: rotate(-45deg);
         bottom: -7px;
         background-color: var(--desaturated-darkd-blue);
         right: 50%;
+        border: transparent;
     }
 }
 
