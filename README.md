@@ -38,7 +38,7 @@ Users should be able to:
 ![](./design./desktop-preview.jpg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [[Add solution URL here](https://github.com/Ataize/article-preview-component-master)]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
