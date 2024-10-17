@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [(https://github.com/Ataize/article-preview-component-master)]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [ https://ataize.github.io/article-preview-component-master/]
 
 ## My process
 
