@@ -138,18 +138,18 @@ main{
         display: none;
     }
     .share-desk{
-        right: -9%;
+        right: -5%;
         position: absolute;
         width: 30%;
         border-radius: .6rem;
         top: 40%;
     }
     .seta{
-        position: absolute;
+        position: relative;
         padding: 10px;
         border: solid transparent;
         transform: rotate(-45deg);
-        bottom: -7px;
+        bottom: -30px;
         background-color: var(--desaturated-darkd-blue);
         right: 50%;
         border: transparent;
