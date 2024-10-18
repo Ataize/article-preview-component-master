@@ -84,7 +84,7 @@ main{
 }
 .card__share a{
     color: var(--grayish-blue);
-    letter-spacing: .6rem;
+    letter-spacing: 2px;
     text-decoration: none;
 }
 .mobile{
