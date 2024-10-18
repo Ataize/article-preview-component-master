@@ -2,8 +2,6 @@
 
 The challenge is to build out this article preview component and get it looking as close to the design as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
 The only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.
 
 Your users should be able to:
@@ -37,12 +35,11 @@ Users should be able to:
 
 ### Screenshot
 
-![(./design./desktop-preview.jpg)]
-
+![](./design./desktop-preview.jpg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [(https://github.com/Ataize/article-preview-component-master)]
+- Live Site URL: [ https://ataize.github.io/article-preview-component-master/]
 
 ## My process
 
